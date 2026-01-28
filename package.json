@@ -1,0 +1,13 @@
+{
+  "name": "exora-etg-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "regions": "node regions_main.js"
+  },
+  "dependencies": {
+    "zstd-napi": "^0.0.8"
+  }
+}
